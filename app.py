@@ -18,7 +18,8 @@ def download_video():
         ydl_opts = {
             'outtmpl': f'{DOWNLOAD_FOLDER}/%(title)s.%(ext)s',  
             'format': 'bestvideo+bestaudio/best',              
-            'merge_output_format': 'mp4',   
+            'merge_output_format': 'mp4',  
+            'cookiefile': 'cookies.txt', 
         }
 
         
