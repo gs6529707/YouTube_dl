@@ -1,4 +1,4 @@
 Flask
 requests
 Gunicorn
-ytdlp
+yt-dlp
